@@ -1,0 +1,588 @@
+<roblox version="4">
+  <Item class="Workspace" referent="0">
+    <Properties>
+      <string name="Name">Workspace</string>
+      <bool name="AllowThirdPartySales">false</bool>
+      <string name="CollisionGroups">Default^0^1</string>
+      <Ref name="CurrentCamera">1</Ref>
+      <double name="DistributedGameTime">0</double>
+      <bool name="ExplicitAutoJoints">true</bool>
+      <float name="FallenPartsDestroyHeight">-500</float>
+      <float name="Gravity">196.2</float>
+      <CoordinateFrame name="ModelInPrimary">
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <R00>1</R00>
+        <R01>0</R01>
+        <R02>0</R02>
+        <R10>0</R10>
+        <R11>1</R11>
+        <R12>0</R12>
+        <R20>0</R20>
+        <R21>0</R21>
+        <R22>1</R22>
+      </CoordinateFrame>
+      <Ref name="PrimaryPart">null</Ref>
+      <bool name="StreamingEnabled">false</bool>
+      <int name="StreamingMinRadius">64</int>
+      <token name="StreamingPauseMode">0</token>
+      <int name="StreamingTargetRadius">1024</int>
+      <BinaryString name="Tags"></BinaryString>
+      <bool name="TemporaryLegacyPhysicsSolverOverrideStreaming">false</bool>
+      <bool name="TerrainWeldsFixed">true</bool>
+    </Properties>
+    <Item class="Camera" referent="1">
+      <Properties>
+        <string name="Name">Camera</string>
+        <CoordinateFrame name="CFrame">
+          <X>0.32168984</X>
+          <Y>18.234615</Y>
+          <Z>23.764597</Z>
+          <R00>0.98357147</R00>
+          <R01>-0.08195359</R01>
+          <R02>0.16084453</R02>
+          <R10>-0</R10>
+          <R11>0.8910084</R11>
+          <R12>0.453987</R12>
+          <R20>-0.18051969</R20>
+          <R21>-0.44652867</R21>
+          <R22>0.87637025</R22>
+        </CoordinateFrame>
+        <Ref name="CameraSubject">null</Ref>
+        <token name="CameraType">0</token>
+        <float name="FieldOfView">70</float>
+        <CoordinateFrame name="Focus">
+          <X>0</X>
+          <Y>17.32664</Y>
+          <Z>22.011852</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="HeadLocked">true</bool>
+        <float name="HeadScale">1</float>
+        <BinaryString name="Tags"></BinaryString>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="2">
+      <Properties>
+        <string name="Name">Baseplate</string>
+        <bool name="Anchored">true</bool>
+        <float name="BackParamA">-0.5</float>
+        <float name="BackParamB">0.5</float>
+        <token name="BackSurface">0</token>
+        <token name="BackSurfaceInput">0</token>
+        <float name="BottomParamA">-0.5</float>
+        <float name="BottomParamB">0.5</float>
+        <token name="BottomSurface">4</token>
+        <token name="BottomSurfaceInput">0</token>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>-10</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <int name="CollisionGroupId">0</int>
+        <Color3uint8 name="Color3uint8">6512482</Color3uint8>
+        <PhysicalProperties name="CustomPhysicalProperties">
+          <CustomPhysics>false</CustomPhysics>
+        </PhysicalProperties>
+        <token name="formFactorRaw">0</token>
+        <float name="FrontParamA">-0.5</float>
+        <float name="FrontParamB">0.5</float>
+        <token name="FrontSurface">0</token>
+        <token name="FrontSurfaceInput">0</token>
+        <float name="LeftParamA">-0.5</float>
+        <float name="LeftParamB">0.5</float>
+        <token name="LeftSurface">0</token>
+        <token name="LeftSurfaceInput">0</token>
+        <bool name="Locked">true</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
+        <float name="Reflectance">0</float>
+        <float name="RightParamA">-0.5</float>
+        <float name="RightParamB">0.5</float>
+        <token name="RightSurface">0</token>
+        <token name="RightSurfaceInput">0</token>
+        <int name="RootPriority">0</int>
+        <Vector3 name="RotVelocity">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Vector3>
+        <token name="shape">1</token>
+        <Vector3 name="size">
+          <X>512</X>
+          <Y>20</Y>
+          <Z>512</Z>
+        </Vector3>
+        <BinaryString name="Tags"></BinaryString>
+        <float name="TopParamA">-0.5</float>
+        <float name="TopParamB">0.5</float>
+        <token name="TopSurface">3</token>
+        <token name="TopSurfaceInput">0</token>
+        <float name="Transparency">0</float>
+        <Vector3 name="Velocity">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Vector3>
+      </Properties>
+    </Item>
+    <Item class="Terrain" referent="3">
+      <Properties>
+        <string name="Name">Terrain</string>
+        <bool name="Anchored">true</bool>
+        <float name="BackParamA">-0.5</float>
+        <float name="BackParamB">0.5</float>
+        <token name="BackSurface">0</token>
+        <token name="BackSurfaceInput">0</token>
+        <float name="BottomParamA">-0.5</float>
+        <float name="BottomParamB">0.5</float>
+        <token name="BottomSurface">4</token>
+        <token name="BottomSurfaceInput">0</token>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <int name="CollisionGroupId">0</int>
+        <Color3uint8 name="Color3uint8">10724005</Color3uint8>
+        <PhysicalProperties name="CustomPhysicalProperties">
+          <CustomPhysics>false</CustomPhysics>
+        </PhysicalProperties>
+        <float name="FrontParamA">-0.5</float>
+        <float name="FrontParamB">0.5</float>
+        <token name="FrontSurface">0</token>
+        <token name="FrontSurfaceInput">0</token>
+        <float name="LeftParamA">-0.5</float>
+        <float name="LeftParamB">0.5</float>
+        <token name="LeftSurface">0</token>
+        <token name="LeftSurfaceInput">0</token>
+        <bool name="Locked">true</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
+        <BinaryString name="MaterialColors"><![CDATA[AAAAAAAAan8/P39rf2Y/ilY+j35fi21PZmxvZbDqw8faiVpHOi4kHh4lZlw76JxKc3trhHtagcLgc4RKxr21zq2UlJSM]]></BinaryString>
+        <BinaryString name="PhysicsGrid"><![CDATA[AgMAAAAAAAAAAAAAAAA=]]></BinaryString>
+        <float name="Reflectance">0</float>
+        <float name="RightParamA">-0.5</float>
+        <float name="RightParamB">0.5</float>
+        <token name="RightSurface">0</token>
+        <token name="RightSurfaceInput">0</token>
+        <int name="RootPriority">0</int>
+        <Vector3 name="RotVelocity">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Vector3>
+        <Vector3 name="size">
+          <X>2044</X>
+          <Y>252</Y>
+          <Z>2044</Z>
+        </Vector3>
+        <BinaryString name="SmoothGrid"><![CDATA[AQU=]]></BinaryString>
+        <BinaryString name="Tags"></BinaryString>
+        <float name="TopParamA">-0.5</float>
+        <float name="TopParamB">0.5</float>
+        <token name="TopSurface">3</token>
+        <token name="TopSurfaceInput">0</token>
+        <float name="Transparency">0</float>
+        <Vector3 name="Velocity">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Vector3>
+        <Color3 name="WaterColor">
+          <R>0.04705883</R>
+          <G>0.32941177</G>
+          <B>0.36078432</B>
+        </Color3>
+        <float name="WaterReflectance">1</float>
+        <float name="WaterTransparency">0.3</float>
+        <float name="WaterWaveSize">0.15</float>
+        <float name="WaterWaveSpeed">10</float>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="SoundService" referent="4">
+    <Properties>
+      <string name="Name">SoundService</string>
+      <token name="AmbientReverb">0</token>
+      <float name="DistanceFactor">3.33</float>
+      <float name="DopplerScale">1</float>
+      <bool name="RespectFilteringEnabled">true</bool>
+      <float name="RolloffScale">1</float>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="NonReplicatedCSGDictionaryService" referent="5">
+    <Properties>
+      <string name="Name">NonReplicatedCSGDictionaryService</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="CSGDictionaryService" referent="6">
+    <Properties>
+      <string name="Name">CSGDictionaryService</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="Chat" referent="7">
+    <Properties>
+      <string name="Name">Chat</string>
+      <bool name="BubbleChatEnabled">false</bool>
+      <bool name="LoadDefaultChat">true</bool>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="TimerService" referent="8">
+    <Properties>
+      <string name="Name">Instance</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="Players" referent="9">
+    <Properties>
+      <string name="Name">Players</string>
+      <bool name="CharacterAutoLoads">true</bool>
+      <int name="MaxPlayersInternal">12</int>
+      <int name="PreferredPlayersInternal">56832</int>
+      <float name="RespawnTime">5</float>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="ReplicatedFirst" referent="10">
+    <Properties>
+      <string name="Name">ReplicatedFirst</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="TweenService" referent="11">
+    <Properties>
+      <string name="Name">TweenService</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="StarterPlayer" referent="12">
+    <Properties>
+      <string name="Name">StarterPlayer</string>
+      <bool name="AllowCustomAnimations">true</bool>
+      <bool name="AutoJumpEnabled">true</bool>
+      <float name="CameraMaxZoomDistance">128</float>
+      <float name="CameraMinZoomDistance">0.5</float>
+      <token name="CameraMode">0</token>
+      <float name="CharacterJumpHeight">7.2</float>
+      <float name="CharacterJumpPower">50</float>
+      <float name="CharacterMaxSlopeAngle">89</float>
+      <bool name="CharacterUseJumpPower">true</bool>
+      <float name="CharacterWalkSpeed">16</float>
+      <token name="DevCameraOcclusionMode">0</token>
+      <token name="DevComputerCameraMovementMode">0</token>
+      <token name="DevComputerMovementMode">0</token>
+      <token name="DevTouchCameraMovementMode">0</token>
+      <token name="DevTouchMovementMode">0</token>
+      <bool name="EnableMouseLockOption">true</bool>
+      <int64 name="GameSettingsAssetIDFace">0</int64>
+      <int64 name="GameSettingsAssetIDHead">0</int64>
+      <int64 name="GameSettingsAssetIDLeftArm">0</int64>
+      <int64 name="GameSettingsAssetIDLeftLeg">0</int64>
+      <int64 name="GameSettingsAssetIDPants">0</int64>
+      <int64 name="GameSettingsAssetIDRightArm">0</int64>
+      <int64 name="GameSettingsAssetIDRightLeg">0</int64>
+      <int64 name="GameSettingsAssetIDShirt">0</int64>
+      <int64 name="GameSettingsAssetIDTeeShirt">0</int64>
+      <int64 name="GameSettingsAssetIDTorso">0</int64>
+      <token name="GameSettingsAvatar">1</token>
+      <token name="GameSettingsR15Collision">0</token>
+      <NumberRange name="GameSettingsScaleRangeBodyType">0 1 </NumberRange>
+      <NumberRange name="GameSettingsScaleRangeHead">0.95 1 </NumberRange>
+      <NumberRange name="GameSettingsScaleRangeHeight">0.9 1.05 </NumberRange>
+      <NumberRange name="GameSettingsScaleRangeProportion">0 1 </NumberRange>
+      <NumberRange name="GameSettingsScaleRangeWidth">0.7 1 </NumberRange>
+      <float name="HealthDisplayDistance">100</float>
+      <bool name="LoadCharacterAppearance">true</bool>
+      <float name="NameDisplayDistance">100</float>
+      <BinaryString name="Tags"></BinaryString>
+      <bool name="UserEmotesEnabled">true</bool>
+    </Properties>
+    <Item class="StarterPlayerScripts" referent="13">
+      <Properties>
+        <string name="Name">StarterPlayerScripts</string>
+        <BinaryString name="Tags"></BinaryString>
+      </Properties>
+    </Item>
+    <Item class="StarterCharacterScripts" referent="14">
+      <Properties>
+        <string name="Name">StarterCharacterScripts</string>
+        <BinaryString name="Tags"></BinaryString>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="StarterPack" referent="15">
+    <Properties>
+      <string name="Name">StarterPack</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="StarterGui" referent="16">
+    <Properties>
+      <string name="Name">StarterGui</string>
+      <bool name="ResetPlayerGuiOnSpawn">true</bool>
+      <token name="ScreenOrientation">2</token>
+      <bool name="ShowDevelopmentGui">true</bool>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="LocalizationService" referent="17">
+    <Properties>
+      <string name="Name">LocalizationService</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="TeleportService" referent="18">
+    <Properties>
+      <string name="Name">Teleport Service</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="CollectionService" referent="19">
+    <Properties>
+      <string name="Name">CollectionService</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="PhysicsService" referent="20">
+    <Properties>
+      <string name="Name">PhysicsService</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="Geometry" referent="21">
+    <Properties>
+      <string name="Name">Geometry</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="InsertService" referent="22">
+    <Properties>
+      <string name="Name">InsertService</string>
+      <bool name="AllowClientInsertModels">false</bool>
+      <bool name="AllowInsertFreeModels">false</bool>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="GamePassService" referent="23">
+    <Properties>
+      <string name="Name">GamePassService</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="Debris" referent="24">
+    <Properties>
+      <string name="Name">Debris</string>
+      <int name="MaxItems">1000</int>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="CookiesService" referent="25">
+    <Properties>
+      <string name="Name">CookiesService</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="VRService" referent="26">
+    <Properties>
+      <string name="Name">VRService</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="ContextActionService" referent="27">
+    <Properties>
+      <string name="Name">ContextActionService</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="ScriptService" referent="28">
+    <Properties>
+      <string name="Name">Instance</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="AssetService" referent="29">
+    <Properties>
+      <string name="Name">AssetService</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="TouchInputService" referent="30">
+    <Properties>
+      <string name="Name">TouchInputService</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="Instance" referent="31">
+    <Properties>
+      <string name="Name">FilteredSelection</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="Selection" referent="32">
+    <Properties>
+      <string name="Name">Selection</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="Instance" referent="33">
+    <Properties>
+      <string name="Name">FilteredSelection</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="Instance" referent="34">
+    <Properties>
+      <string name="Name">FilteredSelection</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="Instance" referent="35">
+    <Properties>
+      <string name="Name">FilteredSelection</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="Instance" referent="36">
+    <Properties>
+      <string name="Name">FilteredSelection</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="ServerScriptService" referent="37">
+    <Properties>
+      <string name="Name">ServerScriptService</string>
+      <bool name="LoadStringEnabled">false</bool>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="ServerStorage" referent="38">
+    <Properties>
+      <string name="Name">ServerStorage</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="ReplicatedStorage" referent="39">
+    <Properties>
+      <string name="Name">ReplicatedStorage</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="LuaWebService" referent="40">
+    <Properties>
+      <string name="Name">Instance</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="Lighting" referent="41">
+    <Properties>
+      <string name="Name">Lighting</string>
+      <Color3 name="Ambient">
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+      </Color3>
+      <float name="Brightness">2</float>
+      <Color3 name="ColorShift_Bottom">
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+      </Color3>
+      <Color3 name="ColorShift_Top">
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+      </Color3>
+      <float name="ExposureCompensation">0</float>
+      <Color3 name="FogColor">
+        <R>0.75294125</R>
+        <G>0.75294125</G>
+        <B>0.75294125</B>
+      </Color3>
+      <float name="FogEnd">100000</float>
+      <float name="FogStart">0</float>
+      <float name="GeographicLatitude">41.7333</float>
+      <bool name="GlobalShadows">true</bool>
+      <bool name="LegacyOutlines">false</bool>
+      <Color3 name="OutdoorAmbient">
+        <R>0.5019608</R>
+        <G>0.5019608</G>
+        <B>0.5019608</B>
+      </Color3>
+      <bool name="Outlines">false</bool>
+      <float name="ShadowSoftness">0.5</float>
+      <BinaryString name="Tags"></BinaryString>
+      <token name="Technology">1</token>
+      <string name="TimeOfDay">14:00:00</string>
+    </Properties>
+  </Item>
+  <Item class="HttpService" referent="42">
+    <Properties>
+      <string name="Name">HttpService</string>
+      <bool name="HttpEnabled">false</bool>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="TestService" referent="43">
+    <Properties>
+      <string name="Name">TestService</string>
+      <bool name="AutoRuns">true</bool>
+      <string name="Description"></string>
+      <bool name="ExecuteWithStudioRun">false</bool>
+      <bool name="Is30FpsThrottleEnabled">true</bool>
+      <bool name="IsPhysicsEnvironmentalThrottled">true</bool>
+      <bool name="IsSleepAllowed">true</bool>
+      <int name="NumberOfPlayers">0</int>
+      <double name="SimulateSecondsLag">0</double>
+      <BinaryString name="Tags"></BinaryString>
+      <double name="Timeout">10</double>
+    </Properties>
+  </Item>
+  <Item class="Instance" referent="44">
+    <Properties>
+      <string name="Name">FilteredSelection</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+  <Item class="VirtualInputManager" referent="45">
+    <Properties>
+      <string name="Name">VirtualInputManager</string>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+</roblox>

@@ -7013,7 +7013,7 @@
           <float name="xmlRead_MaxDistance_3">10000</float>
           <bool name="PlayOnRemove">false</bool>
           <float name="PlaybackSpeed">1.38</float>
-          <bool name="Playing">false</bool>
+          <bool name="Playing">true</bool>
           <token name="RollOffMode">0</token>
           <Ref name="SoundGroup">null</Ref>
           <Content name="SoundId">
